@@ -62,7 +62,7 @@ download.file(url, file.path(path, f))
 Unzip the file. 
 
 ```{r, eval=FALSE}
-executable <- file.path("C:", "Program Files (x86)", "7-Zip", "7z.exe")
+executable <- file.path("C:", "Program Files", "7-Zip", "7z.exe")
 parameters <- "x"
 cmd <- paste(paste0("\"", executable, "\""), parameters, paste0("\"", file.path(path, f), "\""))
 system(cmd)
@@ -266,6 +266,6 @@ dtTidy <- dt[, list(count = .N, average = mean(value)), by=key(dt)]
 Make codebook.
 
 ```{r}
-knit("makeCodebook.Rmd", output="codebook.md", encoding="ISO8859-1", quiet=TRUE)
-markdownToHTML("codebook.md", "codebook.html")
+knit("makeCodebook.Rmd", output="codebook1.md", encoding="ISO8859-1", quiet=TRUE)
+markdownToHTML("codebook1.md", "codebook1.html")
 ```
