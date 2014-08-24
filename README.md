@@ -22,3 +22,16 @@ Appropriately labels the data set with descriptive variable names.
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 Good luck!
 
+
+Project Steps:
+
+1. Open the R script run_analysis.r using a text editor.
+2. set the working directory/folder in  setwd function.
+3. Run the R script run_analysis.r which uses R Markdown file named run_analysis.Rmd which contains the bulk of the code
+   to create following output files :
+   1. run_analysis1.md 
+   2. run_analysis1.html
+   3. DatasetHumanActivityRecognitionUsingSmartphones.txt
+   4. codebook1.md
+   5. codebook1.html 
+
